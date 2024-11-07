@@ -2,7 +2,7 @@
 
 bpBERT is a deep learning model based on BERT, designed for predicting transcription factor binding sites on DNA sequences with base-pair resolution. This model aims to reveal the regulatory syntax of DNA sequences and assess the functional impact of genetic variants, making it applicable for research in gene regulation and genomics.
 
-![bpBERT Model Architecture](docs/fig1_bpBERT-overview.pdf)
+![bpBERT Model Architecture](docs/fig1_bpBERT-overview.png)
 
 ## Environment setup
 We recommend you to build a python virtual environment with Anaconda. 
