@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=0,1 torchrun --standalone --nnodes=1 --nproc_per_node=2 run_pretrain_online.py \
+     --bert_model bpBERT-base \
+     --scratch \
+     --training_data sample_data.txt \
+     --output_dir ../models/pretrain/ \
+     --train_batch_size 1 \
+     --epochs 40 \
+     --learning_rate 3.5e-5 \
+     --kmer_list kmer45678_0.1_GRCh38.txt \
+     --max_kmer_in_sequence 750 \
+     --warmup_proportion 0 \
+     --comment pretrain \
+     --seed 36 \
+     --kmer_dict_size 8735 \
+     --multi_gpu \
+     --max_seq_len 202 
