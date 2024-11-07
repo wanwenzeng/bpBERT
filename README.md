@@ -138,4 +138,3 @@ CUDA_VISIBLE_DEVICES=0 python3 analyze_snp.py \
 --kmer_len_list 4_5_6_7_8
 ```
 
-
